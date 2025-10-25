@@ -1,0 +1,9 @@
+{
+	"name": "df-azureprojectspotify",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f3afac46-5529-4206-b0e2-c0f75a086074",
+		"tenantId": "14c03ce6-4485-4962-a33a-8b93e5520dde"
+	}
+}
