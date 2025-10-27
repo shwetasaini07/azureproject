@@ -80,7 +80,7 @@
 									"parameters": {
 										"container": "bronze",
 										"folder": {
-											"value": "@{item().table}_cdc",
+											"value": "@{item().table}",
 											"type": "Expression"
 										},
 										"file": {
@@ -289,7 +289,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronze",
-													"folder": "cdc",
+													"folder": {
+														"value": "@{item().table}_cdc",
+														"type": "Expression"
+													},
 													"file": "empty.json"
 												}
 											}
@@ -300,7 +303,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronze",
-													"folder": "cdc",
+													"folder": {
+														"value": "@{item().table}_cdc",
+														"type": "Expression"
+													},
 													"file": "cdc.json"
 												}
 											}
@@ -339,12 +345,6 @@
 						"schema": "dbo",
 						"table": "DimArtist",
 						"cdc_col": "updated_at",
-						"from_date": ""
-					},
-					{
-						"schema": "dbo",
-						"table": "FactStream",
-						"cdc_col": "stream_timestamp",
 						"from_date": ""
 					}
 				]
