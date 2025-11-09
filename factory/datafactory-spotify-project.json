@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-spotify-project",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f4b8a296-9b3a-4e55-9492-9f6edba2b45d",
+		"tenantId": "5a00a29f-0a9a-46df-afcd-f4e0fd3f546d"
+	}
+}
