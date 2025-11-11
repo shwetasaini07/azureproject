@@ -1,0 +1,12 @@
+{
+	"name": "sqlazure",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseNew",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
